@@ -1,4 +1,5 @@
 body {
+  font-size: 150%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -9,11 +10,10 @@ main {
   margin: 0 auto;
   text-align: center;
   font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  max-width: 300px;
+  max-width: 500px;
 }
 
 hr {
-  margin-top: 20px;
   height: 1px;
   background: #000;
   border: 0;
@@ -21,6 +21,10 @@ hr {
 
 a {
   color: #000;
+}
+
+footer {
+  font-size: 80% !important;
 }
 
 @media screen and (prefers-color-scheme: dark) {
